@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.maindiv{
+  background-image: linear-gradient(white, lightyellow, maroon); 
+  height: 1000px;
+}
+
+.bannerdiv{
+  width:80%;
+  height:150px;
+  background-image: url('visitNepal2020.jpg');
+  background-size: 100% 100%;
+  text-align:center;
+  margin:auto;
+
+}
+
+.bannerdiv h1{
+  color:rgb(235, 235, 118);
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+
+.mainMenu{
+  width:80%;
+  margin:auto;
+  height:25px;
+}
+
+.menu{
+  background-color: maroon;
+  width:20%;
+  height:25px;
+  float:left;
+  text-align: center;
+}
+
+.menu-link:link{
+  color:white;
+  text-decoration:none;
+}
+.menu-link:hover{
+  color:red;
+  text-decoration:underline;
+}
+.menu-link:visited{
+  color:whitesmoke;
+  text-decoration:none;
+}
+.menu-link:visited:hover{
+  color:yellow;
+  text-decoration:none;
+}
+.menu-link:active{
+  color:orange;
+  text-decoration:none;
+}
+
+.wrapper{
+  background-color:black;
+  width:80%;
+  height:400px;
+  margin:auto;
+}
+
+.wrapper-left{
+  width:80%;
+  height:100%;
+  float:left;
+  align-items: center;
+}
+
+.wrapper-right{
+  width:20%;
+  height:100%;
+  float:right;
+  text-align: center;
+  background-color: lightyellow;
+}
+
+.h1-wrapper{
+  font-size: 20px;
+}
+
+.p-wrapper{
+  color:white;
+}
+
+.form{
+  text-align: center;
+}
+
+.form input{
+
+  margin-top:10px;
+  width:80%;
+  height: 30px;
+  padding: 1px 3px;
+  background-color: #f3f3f3;
+  border:0;
+  border-radius: 5px;
+  margin-bottom:5px;
+  transition: all 250ms ease-in-out;
+  
+}
+
+.form input:focus{
+  box-shadow: 0 0 12 0.8 #0e81ce96;
+
+}
+
+.wrapper-bottom{
+  width:80%;
+  height:300px;
+  margin:auto;
+  background-color: lightgoldenrodyellow;
+}
+
+.wrapper-bottom-left{
+  margin: 10px 0 0 10px;
+  width: 30%;
+  height: 90%;
+  float:left;
+  background-image: linear-gradient(skyblue,white,skyblue);
+  /*background-color:black;*/
+  border: 5px groove rgb(202, 198, 198);
+
+  
+}
+.wrapper-bottom-center{
+  margin: 10px 0 0 20px;
+  width: 32%;
+  height: 90%;
+  float:left;
+  background-image: linear-gradient(skyblue,white,skyblue);
+  /*background-color:black;*/
+  border: 5px groove rgb(202, 198, 198);
+
+}
+.wrapper-bottom-right{
+  margin: 10px 10px 0 0;
+  width: 30%;
+  height: 90%;
+  float: right;
+  background-image: linear-gradient(skyblue,white,skyblue);
+  /*background-color:black;*/
+  border: 5px groove rgb(202, 198, 198);
+  
+}
